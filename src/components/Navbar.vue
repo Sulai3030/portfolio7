@@ -2,7 +2,7 @@
   <nav>
     <v-toolbar app color="#022770">
       <v-toolbar-title class="uppercase">
-        <span class="#fff">Sulai Sivadel </span>
+        Sulai Sivadel
         <span>Web Developer</span>
       </v-toolbar-title>
     </v-toolbar>
@@ -10,5 +10,22 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data: () => ({
+    items: [
+      {
+        color: "##4680F2",
+        src: "",
+        title: "",
+        artist: "",
+      },
+      {
+        color: "##F2755E",
+        src: "",
+        title: "",
+        artist: "",
+      },
+    ],
+  }),
+};
 </script>

@@ -6,7 +6,7 @@
     outlined
     rounded
     shaped
-    width="1000"
+    width="1400"
   >
     <div class="headline">
       <v-card max-width="1000" class="mx-auto">
@@ -15,54 +15,37 @@
         <v-container>
           <v-row dense>
             <v-col cols="12">
-              <v-card color="#385F73" dark>
+              <v-card color="#4680F2" dark>
                 <v-card-title class="text-h5"> </v-card-title>
 
                 <v-card-subtitle
-                  >Listen to your favorite artists and albums whenever and
-                  wherever, online and offline.</v-card-subtitle
+                  >Ambitious, user-focused Web and Software Developer with
+                  experience working in teams and independently. Has strong
+                  project management experience and experience delegating
+                  responsibilities to a team from time at Maximus where he
+                  spearheaded a project to create the audio/ADA compliant
+                  portion of a new healthcare plan for 1.5 million citizens of
+                  New York State.</v-card-subtitle
                 >
 
-                <v-card-actions>
-                  <v-btn text> Listen Now </v-btn>
-                </v-card-actions>
+                <v-card-actions> </v-card-actions>
               </v-card>
             </v-col>
 
-            <v-col v-for="(item, i) in items" :key="i" cols="12">
-              <v-card :color="item.color" dark>
-                <div class="d-flex flex-no-wrap justify-space-between">
-                  <div>
-                    <v-card-title
-                      class="text-h5"
-                      v-text="item.title"
-                    ></v-card-title>
+            <v-col>
+              <v-card color="#7DA628" dark>
+                <v-card-title class="text-h5"> </v-card-title>
 
-                    <v-card-subtitle v-text="item.artist"></v-card-subtitle>
-
-                    <v-card-actions>
-                      <v-btn
-                        v-if="item.artist === 'Ellie Goulding'"
-                        class="ml-2 mt-3"
-                        fab
-                        icon
-                        height="40px"
-                        right
-                        width="40px"
-                      >
-                        <v-icon>mdi-play</v-icon>
-                      </v-btn>
-
-                      <v-btn v-else class="ml-2 mt-5" outlined rounded small>
-                        START RADIO
-                      </v-btn>
-                    </v-card-actions>
-                  </div>
-
-                  <v-avatar class="ma-3" size="125" tile>
-                    <v-img :src="item.src"></v-img>
-                  </v-avatar>
-                </div>
+                <v-card-subtitle
+                  >A flexible and quick learner committed to constantly learning
+                  learning and evolving his skills to stay abreast of
+                  ever-evolving technologies and trends in the industry.
+                  Communicative, knowledgeable and steadfast with excellent
+                  computer engineering skills learned in the Columbia University
+                  Coding Bootcamp where he created projects in HTML5, CSS,
+                  JavaScript, VueJS, and ReactJS.</v-card-subtitle
+                >
+                <v-card-actions> </v-card-actions>
               </v-card>
             </v-col>
           </v-row>
