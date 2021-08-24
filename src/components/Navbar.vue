@@ -3,14 +3,20 @@
     <v-toolbar app color="#022770" prominent class="font-weight-white">
       <v-toolbar-title class="white--text">
         Sulai Sivadel
-        <v-spacer></v-spacer> <v-spacer></v-spacer>Web
+        <v-spacer></v-spacer>Web
         Developer</v-toolbar-title
-      >
+      ><v-spacer></v-spacer> <v-spacer></v-spacer>
       <v-btn class="white--text" elevation="24" outlined raised rounded to="/"
         ><span>About</span></v-btn
       >
-      <v-btn class="white--text" elevation="24" outlined raised rounded
+      <v-btn 
+      class="white--text" 
+      elevation="24" 
+      outlined 
+      raised 
+      rounded
       to=/applications><span>Applications</span>
+      </v-btn>
 
       <v-btn
         class="white--text"
