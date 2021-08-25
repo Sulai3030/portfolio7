@@ -19,9 +19,10 @@
                   v-text="item.headline"
                 ></v-list-item-subtitle>
 
-                <v-list-item-subtitle
-                  v-text="item.subtitle"
-                ></v-list-item-subtitle>
+                <v-list-item-subtitle :href="link.url" target="_blank"
+                  >{{ link.text }} v-text="item.subtitle"
+                  ></v-list-item-subtitle
+                >
               </v-list-item-content>
 
               <v-list-item-action>
@@ -50,8 +51,7 @@ export default {
       {
         action: "",
         headline: "",
-        subtitle: `a
-              href="https://blackhealthmatters.com/lauren-lee-talks-kidney-disease-breakthroughs/"
+        subtitle: `:href="https://blackhealthmatters.com/lauren-lee-talks-kidney-disease-breakthroughs/"
               target="_blank"
             `,
         title: "Lauren Lee talks kidney disease breakthroughs",
@@ -59,8 +59,7 @@ export default {
       {
         action: "",
         headline: "",
-        subtitle: `a
-              href="https://blackhealthmatters.com/working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to-be-an-advocate-for-you//"
+        subtitle: `:href="https://blackhealthmatters.com/working-with-your-doctor-when-you-have-kidney-disease-empowering-yourself-to-be-an-advocate-for-you//"
               target="_blank"
             `,
         title: `Working with your doctor when you have kidney disease
@@ -69,8 +68,7 @@ export default {
       {
         action: "",
         headline: "",
-        subtitle: `"<a
-              href="https://blackhealthmatters.com/is-there-a-light-at-the-end-of-the-dark-tunnel-of-kidney-disease-in-children/"
+        subtitle: `:href="https://blackhealthmatters.com/is-there-a-light-at-the-end-of-the-dark-tunnel-of-kidney-disease-in-children/"
               target="_blank"
             >"`,
         title: `"Is There a Light at the End of the Dark Tunnel of Kidney
