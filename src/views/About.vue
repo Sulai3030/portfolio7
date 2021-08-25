@@ -4,7 +4,7 @@
       <v-card class="mx-auto">
         <v-system-bar color="pink darken-2" dark> </v-system-bar>
         <v-spacer></v-spacer>
-        <v-container height="1000">
+        <v-container height="1450">
           <v-row dense>
             <v-col cols="12">
               <v-card color="#4680F2" dark>

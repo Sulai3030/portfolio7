@@ -26,7 +26,7 @@
         outlined
         raised
         rounded
-        to="src/views/ProfessionalWriting.vue"
+        to="WritingExperience.vue"
         ><span>Writing Experince</span></v-btn
       >
       <v-btn
@@ -35,7 +35,7 @@
         outlined
         raised
         rounded
-        to="src/views/Skills.vue"
+        to="Skills.vue"
         ><span>Skills</span></v-btn
       >
     </v-toolbar>
