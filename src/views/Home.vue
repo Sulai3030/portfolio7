@@ -13,7 +13,7 @@
         <v-card max-width="1000" class="mx-auto">
           <v-system-bar color="pink darken-2" dark> </v-system-bar>
           <v-spacer></v-spacer>
-          <v-container>
+          <v-container height="800">
             <v-row dense>
               <v-col cols="12">
                 <v-card color="#4680F2" dark>
