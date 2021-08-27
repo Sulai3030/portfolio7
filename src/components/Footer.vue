@@ -20,7 +20,14 @@
 <script>
 export default {
   data: () => ({
-    links: ["Home", "About Us", "Team", "Services", "Blog", "Contact Us"],
+    links: [
+      "Home",
+      "Applications",
+      "Clients",
+      "Writing Experience",
+      "Skills",
+      "Contact Us",
+    ],
   }),
 };
 </script>

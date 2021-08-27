@@ -1,9 +1,10 @@
 <template>
-  <v-app class="grey">
+  <v-app class="grey" app>
     <Navbar />
-    <v-content>
-      <router-view></router-view>
-    </v-content>
+    <v-main>
+      <v-container fluid><router-view></router-view> </v-container>
+    </v-main>
+
     <Footer />
   </v-app>
 </template>

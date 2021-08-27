@@ -108,24 +108,7 @@
   </v-card>
 </template>
 <script>
-export default {
-  data: () => ({
-    items: [
-      {
-        color: "#1F7087",
-        src: "",
-        title: "",
-        artist: "",
-      },
-      {
-        color: "#952175",
-        src: "",
-        title: "",
-        artist: "",
-      },
-    ],
-  }),
-};
+export default {};
 </script>
 <style scoped>
 a {

@@ -5,20 +5,20 @@
         <v-system-bar color="pink darken-2" dark> </v-system-bar>
         <v-spacer></v-spacer>
         <v-container height="1450">
-          <v-row dense>
+          <v-row>
             <v-col cols="12">
-              <v-card color="#4680F2" dark>
-                <v-card-title class="text-h5"> </v-card-title>
-
-                <v-card-subtitle
-                  >Ambitious, user-focused Web and Software Developer with
+              <v-card color="#4680F2" dark max-height="1000">
+                <v-card-title class="text-h5">
+                  Ambitious, user-focused Web and Software Developer with
                   experience working in teams and independently. Has strong
                   project management experience and experience delegating
                   responsibilities to a team from time at Maximus where he
                   spearheaded a project to create the audio/ADA compliant
                   portion of a new healthcare plan for 1.5 million citizens of
-                  New York State.</v-card-subtitle
+                  New York State.</v-card-title
                 >
+
+                <v-card-subtitle></v-card-subtitle>
 
                 <v-card-actions> </v-card-actions>
               </v-card>
@@ -52,16 +52,16 @@ export default {
   data: () => ({
     items: [
       {
-        color: "#1F7087",
-        src: "https://cdn.vuetifyjs.com/images/cards/foster.jpg",
-        title: "Supermodel",
-        artist: "Foster the People",
+        color: "",
+        src: "",
+        title: "",
+        artist: "",
       },
       {
-        color: "#952175",
-        src: "https://cdn.vuetifyjs.com/images/cards/halcyon.png",
-        title: "Halcyon Days",
-        artist: "Ellie Goulding",
+        color: "",
+        src: "",
+        title: "",
+        artist: "",
       },
     ],
   }),

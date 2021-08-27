@@ -8,8 +8,15 @@
       <v-btn class="white--text" elevation="24" outlined raised rounded to="/"
         ><span>About</span></v-btn
       >
-      <v-btn class="white--text" elevation="24" outlined raised rounded
-      to=/applications><span>Applications</span>
+      <v-btn
+        class="white--text"
+        elevation="24"
+        outlined
+        raised
+        rounded
+        to="/applications"
+        ><span>Applications</span></v-btn
+      >
 
       <v-btn
         class="white--text"
@@ -17,8 +24,8 @@
         outlined
         raised
         rounded
-        to="experience"
-        ><span>Work Experince</span></v-btn
+        to="/clients.vue"
+        ><span>Clients</span></v-btn
       >
       <v-btn
         class="white--text"
@@ -26,8 +33,8 @@
         outlined
         raised
         rounded
-        to="WritingExperience.vue"
-        ><span>Writing Experince</span></v-btn
+        to="/WritingExperience"
+        ><span>Professional Writing</span></v-btn
       >
       <v-btn
         class="white--text"
@@ -35,7 +42,7 @@
         outlined
         raised
         rounded
-        to="Skills.vue"
+        to="/Skills"
         ><span>Skills</span></v-btn
       >
     </v-toolbar>
