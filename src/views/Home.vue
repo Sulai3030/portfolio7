@@ -18,7 +18,7 @@
               <v-col cols="12">
                 <v-card color="#4680F2" dark>
                   <v-card-title> </v-card-title>
-                  <v-card-subtitle class="text-h4"
+                  <v-card-subtitle class="text-h5"
                     >Ambitious, user-focused Web and Software Developer with
                     experience working in teams and independently. Has strong
                     project management experience and experience delegating
@@ -34,7 +34,7 @@
               <v-col>
                 <v-card color="#7DA628" dark>
                   <v-card-title> </v-card-title>
-                  <v-card-subtitle class="text-h4"
+                  <v-card-subtitle class="text-h5"
                     >A flexible and quick learner committed to constantly
                     learning learning and evolving his skills to stay abreast of
                     ever-evolving technologies and trends in the industry.

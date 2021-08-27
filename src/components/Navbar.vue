@@ -24,7 +24,7 @@
         outlined
         raised
         rounded
-        to="/clients.vue"
+        to="/Clients"
         ><span>Clients</span></v-btn
       >
       <v-btn

@@ -5,8 +5,6 @@
     </v-system-bar>
 
     <v-app-bar dark color="pink">
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
-
       <v-toolbar-title>Clients</v-toolbar-title>
 
       <v-spacer></v-spacer>
@@ -15,7 +13,7 @@
     <v-container>
       <v-row dense>
         <v-col cols="12">
-          <v-card color="##4680F2" dark>
+          <v-card color="##4680F2" dark elevation="24" outlined shaped>
             <v-card-title class="text-h5">
               BlackHealthMatters.com
             </v-card-title>
@@ -94,7 +92,7 @@
             <v-card-subtitle class="white--text"
               ><a href="https://nymedicaidchoice.com/	" target="_blank">
                 <span class="md-list-item-text"
-                  >New York Medicaidchoice.com/
+                  >New York Medicaid Choice
                 </span></a
               >
             </v-card-subtitle>
