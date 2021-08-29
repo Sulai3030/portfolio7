@@ -98,27 +98,32 @@
                   >
                 </v-card-subtitle>
               </v-card>
+              <v-card-title class="text-h5">
+                Health Policy Writing/Reporting
+              </v-card-title>
               <v-card elevation="24" outlined shaped
                 ><v-card-subtitle class="white--text"
                   ><a href="https://nymedicaidchoice.com/	" target="_blank">
                     <span class="md-list-item-text"
-                      >Health Policy Writing -- New York Medicaidchoice.com
+                      >New York Medicaidchoice.com
                     </span></a
                   >
                 </v-card-subtitle></v-card
               >
+              <v-card-title class="text-h5"
+                >Film Criticism and Reporting:
+              </v-card-title>
               <v-card elevation="24" outlined shaped>
                 <v-card-subtitle class="white--text"
                   ><a
                     href="https://screenrant.com/author/sulai/"
                     target="_blank"
                   >
-                    <span class="md-list-item-text"
-                      >Film Criticism and Reporting: ScreenRant.com
-                    </span></a
+                    <span class="md-list-item-text">ScreenRant.com </span></a
                   >
                 </v-card-subtitle></v-card
               >
+              <v-card-title class="h5">Technical Writing</v-card-title>
               <v-card elevation="24" outlined shaped
                 ><v-card-subtitle class="white--text"
                   ><a
