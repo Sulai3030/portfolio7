@@ -1,41 +1,52 @@
 <template>
-  <nav>
-    <v-toolbar app>
-      <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
-      <v-toolbar-title class="text-uppercase color=#022770">
-        <span>Sulai</span>
-      </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn color="#022770"></v-btn>
-    </v-toolbar>
+  <v-card class="mx-auto" height="250" width="1200">
+    <v-navigation-drawer permanent width="100%">
+      <v-row class="fill-height" no-gutters>
+        <v-navigation-drawer
+          dark
+          mini-variant
+          mini-variant-width="56"
+          permanent
+        >
+          <v-list-item class="px-2"> </v-list-item>
 
-    <v-navigation-drawer
-      app
-      v-model="drawer"
-      class="#022770"
-    ></v-navigation-drawer>
-  </nav>
+          <v-divider></v-divider>
+
+          <v-list dense nav>
+            <v-list-item v-for="item in items" :key="item.title">
+              <v-list-item-action>
+                <v-icon>{{ item.icon }}</v-icon>
+              </v-list-item-action>
+
+              <v-list-item-content>
+                <v-list-item-title>{{ item.title }}</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </v-list>
+        </v-navigation-drawer>
+
+        <v-list class="grow">
+          <v-list-item v-for="link in links" :key="link" link>
+            <v-list-item-title v-text="link"></v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-row>
+    </v-navigation-drawer>
+  </v-card>
 </template>
-
 <script>
 export default {
   data() {
     return {
-      drawer: false,
-      links: [
-        { icon: "Home", text: "Home", route: "/" },
-        { icon: "Folder", text: "Applications", route: "/applications" },
-        { icon: "Person", text: "Clients", route: "/clients" },
-        {
-          icon: "Person",
-          text: "WritingExperience",
-          route: "/writingexperience",
-        },
-        { icon: "Person", text: "Skills", route: "/skills" },
+      items: [
+        { title: "Home", icon: "mdi-view-dashboard" },
+        { title: "About", icon: "mdi-forum" },
+        { title: "Applications", icon: "mdi-forum" },
+        { title: "Clients", icon: "mdi-forum" },
       ],
+      links: ["Home", "About", "Applications", "Clients"],
+      mini: true,
     };
   },
 };
 </script>
-
-<style></style>

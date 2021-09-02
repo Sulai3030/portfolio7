@@ -1,5 +1,6 @@
 import Vue from "vue";
 import Vuetify from "vuetify/lib/framework";
+// src/plugins/vuetify.js
 
 Vue.use(Vuetify);
 
@@ -12,5 +13,8 @@ export default new Vuetify({
       lg: 1280,
     },
     scrollBarWidth: 24,
+    breakpoint: {
+      mobileBreakpoint: "sm", // This is equivalent to a value of 960
+    },
   },
 });
