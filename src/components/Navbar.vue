@@ -1,52 +1,29 @@
 <template>
-  <v-card class="mx-auto" height="250" width="1200">
-    <v-navigation-drawer permanent width="100%">
-      <v-row class="fill-height" no-gutters>
-        <v-navigation-drawer
-          dark
-          mini-variant
-          mini-variant-width="56"
-          permanent
-        >
-          <v-list-item class="px-2"> </v-list-item>
-
-          <v-divider></v-divider>
-
-          <v-list dense nav>
-            <v-list-item v-for="item in items" :key="item.title">
-              <v-list-item-action>
-                <v-icon>{{ item.icon }}</v-icon>
-              </v-list-item-action>
-
-              <v-list-item-content>
-                <v-list-item-title>{{ item.title }}</v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-          </v-list>
-        </v-navigation-drawer>
-
-        <v-list class="grow">
-          <v-list-item v-for="link in links" :key="link" link>
-            <v-list-item-title v-text="link"></v-list-item-title>
-          </v-list-item>
-        </v-list>
-      </v-row>
-    </v-navigation-drawer>
-  </v-card>
+  <v-app>
+    <v-app-bar app color="#022770">
+      <v-toolbar-title> Sulai Sivadel : Web Developer </v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-btn rounded v-for="link in links" :key="link"> {{ link }}</v-btn>
+    </v-app-bar>
+  </v-app>
 </template>
+
 <script>
 export default {
+  name: "App",
   data() {
     return {
-      items: [
-        { title: "Home", icon: "mdi-view-dashboard" },
-        { title: "About", icon: "mdi-forum" },
-        { title: "Applications", icon: "mdi-forum" },
-        { title: "Clients", icon: "mdi-forum" },
+      links: [
+        "Home",
+        "About",
+        "Applications",
+        "Clients",
+        "WritingExperience",
+        "Skills",
       ],
-      links: ["Home", "About", "Applications", "Clients"],
-      mini: true,
     };
   },
 };
 </script>
+
+<style></style>
