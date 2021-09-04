@@ -1,6 +1,6 @@
 <template>
   <div class="contact">
-    <v-card max-width="1000" class="mx-auto">
+    <v-card max-width="1200" class="mx-auto">
       <v-system-bar color="pink darken-2" dark> </v-system-bar>
       <v-spacer></v-spacer>
       <v-container height="800">

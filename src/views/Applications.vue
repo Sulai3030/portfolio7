@@ -1,6 +1,6 @@
 <template>
   <div class="applications">
-    <v-card max-width="1450" class="mx-auto class=#022770">
+    <v-card max-width="1200" class="mx-auto class=#022770">
       <v-system-bar color="pink darken-2" dark>
         <v-spacer></v-spacer>
       </v-system-bar>

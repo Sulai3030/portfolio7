@@ -6,10 +6,8 @@
       </v-system-bar>
       <v-app-bar dark color="pink">
         <v-toolbar-title>Skills</v-toolbar-title>
-
         <v-spacer></v-spacer>
       </v-app-bar>
-
       <v-container>
         <v-row dense>
           <v-col cols="12">
