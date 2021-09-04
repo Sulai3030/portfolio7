@@ -1,8 +1,8 @@
 <template>
   <v-app app dark>
-    <Navbar />
-    <v-container fluid
-      ><v-btn
+    <v-card
+      ><Navbar />
+      <v-btn
         v-for="link in links"
         :key="`${link.label}-footer-link`"
         text
@@ -17,8 +17,8 @@
         tile
         >{{ link.label }}</v-btn
       >
-      <router-view></router-view>
-    </v-container>
+      <router-view></router-view
+    ></v-card>
     <Footer />
   </v-app>
 </template>
@@ -61,4 +61,8 @@ export default {
   },
 };
 </script>
-<style></style>
+<style>
+.v-application--wrap {
+  height: 100vh !important;
+}
+</style>
