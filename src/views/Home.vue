@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="about">
     <v-card max-width="1200" class="mx-auto">
       <v-app-bar dark color="pink">
         <v-spacer></v-spacer>
