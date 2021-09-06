@@ -90,6 +90,9 @@
                   </span></a
                 >
               </v-card-subtitle>
+              <v-card-title class="text-h5" dark elevation="24" outlined shaped
+                >New York Medicaid Choice</v-card-title
+              >
               <v-card-subtitle class="white--text"
                 ><a href="https://nymedicaidchoice.com/	" target="_blank">
                   <span class="md-list-item-text"

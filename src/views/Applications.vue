@@ -14,7 +14,13 @@
       <v-container>
         <v-row dense>
           <v-col cols="12">
-            <v-card color="#4680F2 class=white--text">
+            <v-card
+              color="#4680F2 class=white--text"
+              dark
+              elevation="24"
+              outlined
+              shaped
+            >
               <v-card-title class="text-h5">
                 Project 1. Party Dash</v-card-title
               >
